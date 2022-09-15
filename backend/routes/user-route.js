@@ -20,7 +20,7 @@ let user;
 });
 //----------signup form insertion------
 
-userRouter.post("/signup",async (req,res)=>{
+userRouter.post("/user/signup",async (req,res)=>{
    
     let existinguser;
     
@@ -57,7 +57,7 @@ userRouter.post("/signup",async (req,res)=>{
 
 //----------Check Login Details------
 
-userRouter.post("/login",async (req,res)=>{
+userRouter.post("/user/login",async (req,res)=>{
    
     let existingusers;
     
